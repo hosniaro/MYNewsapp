@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image"
+        style="@style/MyStyle"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:text=""
+        style="@style/MyStyle"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        style="@style/MyStyle"
+        android:id="@+id/text2"
+        android:text=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <TextView
+        android:id="@+id/text3"
+        style="@style/MyStyle"
+        android:text=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+    android:id="@+id/text4"
+    style="@style/MyStyle"
+    android:text=""
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteX="121dp"
+    tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:id="@+id/text5"
+        style="@style/MyStyle"
+        android:text=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="92dp" />
+    <TextView
+        android:id="@+id/text6"
+        style="@style/MyStyle"
+        android:text=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="92dp" />
+    <TextView
+        android:id="@+id/text7"
+        style="@style/MyStyle"
+        android:text=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
